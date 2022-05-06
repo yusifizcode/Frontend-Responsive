@@ -1,0 +1,83 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+#sidebar{
+    width: 300px;
+    color: black;
+    background-color: white;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+
+.cont{
+    padding: 0.01em 16px;
+    display: none;
+}
+
+.cont img{
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
+}
+
+
+.cont h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.nav{
+    padding: 0;
+
+}
+
+.nav .nav-item{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+    font-size: large;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin:20px ;
+    position: absolute;
+    width: 95%;
+}
+
+.heading i{
+    font-size: 26px;
+    padding: 20px;
+}
+
+.profile-photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+@media screen and (min-width:992px){
+    .heading{
+        display: none;
+    }
+
+    .cont{
+        display: block;
+    }
+}
