@@ -65,9 +65,15 @@ body{
     padding: 20px;
 }
 
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .profile-photo img{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 }
 
